@@ -1,0 +1,22 @@
+/* Start root and body */
+
+:root {
+    --dark-indigo: #2C2C54;
+    --deep-purple-gray: #474787;
+    --cool-gray: #AAABB8; 
+    --light-gray: #ECECEC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* End root and body */
+
+/* Start nav */
+
+
+
+/* End nav */
