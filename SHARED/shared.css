@@ -13,10 +13,54 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Raleway", sans-serif;
+}
+
 /* End root and body */
 
 /* Start nav */
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+}
 
+#logo-div>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+    padding-left: 2vw;
+}
+
+#nav-links-div>a {
+    text-decoration: none;
+    color: black;
+    margin-right: 2vw;
+    font-size: 25px;
+    position: relative;
+}
+
+/* Animasjoner til linkene i nav */
+
+#nav-links-div>a::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0%;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s ease, left 0.4s ease;
+}
+
+#nav-links-div>a:hover::after {
+    width: 100%;
+    left: 0;
+}
 
 /* End nav */
