@@ -37,7 +37,7 @@ nav {
     padding-left: 2vw;
 }
 
-#nav-links-div>a {
+#links-animated {
     text-decoration: none;
     color: black;
     margin-right: 2vw;
@@ -47,7 +47,7 @@ nav {
 
 /* Animasjoner til linkene i nav */
 
-#nav-links-div>a::after {
+#links-animated::after {
     content: "";
     position: absolute;
     height: 3px;
@@ -58,7 +58,7 @@ nav {
     transition: 0.4s ease, left 0.4s ease;
 }
 
-#nav-links-div>a:hover::after {
+#links-animated:hover::after {
     width: 100%;
     left: 0;
 }
