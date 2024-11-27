@@ -1,10 +1,11 @@
 /* Start root and body */
 
 :root {
-    --dark-indigo: #2C2C54;
-    --deep-purple-gray: #474787;
-    --cool-gray: #AAABB8; 
-    --light-gray: #ECECEC;
+    --black: #000000;
+    --dark-blue: #14213d;
+    --yellow: #fca311; 
+    --light-gray: #e5e5e5;
+    --white: #ffffff;
 }
 
 * {
@@ -27,11 +28,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     min-height: 80px;
+
+    background-color: var(--yellow);
 }
 
 #logo-div>a {
     text-decoration: none;
-    color: black;
+    color: var(--black);
     font-weight: 800;
     font-size: 40px;
     padding-left: 2vw;
@@ -39,7 +42,7 @@ nav {
 
 #links-animated {
     text-decoration: none;
-    color: black;
+    color: var(--black);
     margin-right: 2vw;
     font-size: 25px;
     position: relative;
@@ -52,7 +55,7 @@ nav {
     position: absolute;
     height: 3px;
     width: 0%;
-    background-color: black;
+    background-color: var(--black);
     bottom: 0;
     left: 0;
     transition: 0.4s ease, left 0.4s ease;

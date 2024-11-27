@@ -1,3 +1,11 @@
+:root {
+    --black: #000000;
+    --dark-blue: #14213d;
+    --yellow: #fca311; 
+    --light-gray: #e5e5e5;
+    --white: #ffffff;
+}
+
 /* Start main */
 
 main {
@@ -5,8 +13,36 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
+#hero-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
+    background-color: var(--dark-blue);
+    color: var(--light-gray);
+    font-size: 50px;
+    padding: 100px 0px 100px 0px;
+}
+
+#main-links-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px 0px 30px 0px;
+}
+
+#main-links-div>a {
+    margin-top: 30px;
+    margin-right: 0;
+
+    font-size: 60px;
+}
 
 /* End main */
