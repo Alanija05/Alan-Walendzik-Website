@@ -1,3 +1,4 @@
+/* Colors */
 :root {
     --black: #000000;
     --dark-blue: #14213d;
@@ -16,6 +17,7 @@ main {
 
 }
 
+/* Hero text */
 #hero-div {
     width: 100%;
     display: flex;
@@ -29,14 +31,23 @@ main {
     padding: 100px 0px 100px 0px;
 }
 
+/* Coding video */
 #coding-video-div {
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 600px;
-    object-position: center;
+    width: 100%; 
+    height: 600px; 
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+#coding-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+/* Links in main */
 #main-links-div {
     display: flex;
     flex-direction: column;
