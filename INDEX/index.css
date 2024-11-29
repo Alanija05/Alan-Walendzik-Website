@@ -29,6 +29,14 @@ main {
     padding: 100px 0px 100px 0px;
 }
 
+#coding-video-div {
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 600px;
+    object-position: center;
+}
+
+
 #main-links-div {
     display: flex;
     flex-direction: column;
