@@ -47,13 +47,3 @@ main{
 }
 
 /* End main */
-
-/* Start footer */
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* End footer */
