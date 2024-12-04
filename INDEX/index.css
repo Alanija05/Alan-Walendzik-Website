@@ -66,3 +66,12 @@ main {
 
 /* End main */
 
+/* Start media queries */
+
+@media screen and (max-width: 800px) {
+    #hero-div {
+        font-size: 35px;
+    }
+ }
+
+/* End media queries */
