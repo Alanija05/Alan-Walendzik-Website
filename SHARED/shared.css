@@ -18,7 +18,11 @@
 
 body {
     font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
+
 
 /* End root and body */
 
@@ -27,6 +31,7 @@ body {
 nav {
     display: flex;
     flex-direction: row;
+    flex-shrink: 0;
     justify-content: space-between;
     align-items: center;
     min-height: 12vh;
@@ -78,6 +83,7 @@ footer {
     align-items: center;
     justify-content: center;
     min-height: 12.5vh;
+    flex-shrink: 0;
 }
 
 #footer-content {
