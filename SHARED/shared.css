@@ -34,7 +34,7 @@ nav {
     flex-shrink: 0;
     justify-content: space-between;
     align-items: center;
-    min-height: 12vh;
+    min-height: 80px;
 
     background-color: var(--yellow);
 }
@@ -45,6 +45,7 @@ nav {
     font-weight: 800;
     font-size: 40px;
     padding-left: 2vw;
+    transition: 0.5s;
 }
 
 #links-animated {
@@ -82,7 +83,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 12.5vh;
+    min-height: 80px;
     flex-shrink: 0;
 }
 
@@ -116,3 +117,18 @@ footer {
 }
 
 /* End Scrollbar */
+
+/* Start media queries */
+
+ @media screen and (max-width: 800px) {
+    #logo-div>a {
+        font-size: 30px;
+    }
+
+    #nav-links-div {
+        display: flex;
+        flex-direction: column;
+    }
+ }
+
+/* End media queries */
