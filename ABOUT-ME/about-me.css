@@ -13,7 +13,7 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 75.5vh;
+    flex: 1;
 }
 
 .sides {
@@ -47,3 +47,21 @@ main{
 }
 
 /* End main */
+
+/* Start media queries */
+
+@media screen and (max-width: 800px) {
+    main {
+        flex-direction: column;
+    }
+
+    .sides {
+        width: 75%;
+    }
+
+    #right-side {
+        margin-bottom: 40px;
+    }
+ }
+
+/* End media queries */

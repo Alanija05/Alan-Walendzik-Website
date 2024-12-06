@@ -13,7 +13,7 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 75.5vh;
+    height: 77vh;
 }
 
 .sides {
@@ -66,3 +66,28 @@ main{
 /* End project box */
 
 /* End main */
+
+/* Start media queries */
+
+@media screen and (max-width: 800px) {
+    main {
+        flex-direction: column;
+        height: auto;
+        flex: 1;
+    }
+
+    .sides {
+        width: 90%;
+        overflow: visible;
+    }
+
+    #left-side {
+        margin-top: 20px;
+    }
+
+    #right-side {
+        margin: 20px 0px;
+    }
+ }
+
+/* End media queries */
