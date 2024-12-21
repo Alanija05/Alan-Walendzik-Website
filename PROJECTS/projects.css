@@ -13,7 +13,8 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 77vh;
+    height: auto;
+    flex: 1;
 }
 
 .sides {
